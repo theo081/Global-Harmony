@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Global Harmony</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container" id="main-container">
+  <h1>🎵 Global Harmony: A Musical Journey 🎵</h1>
+
+  <div class="culture-select">
+    <label for="culture">Choose a culture:</label>
+    <select id="culture">
+      <option value="">-- Home --</option>
+      <option value="myanmar">Myanmar</option>
+      <option value="china">China</option>
+      <option value="hongkong">Hong Kong</option>
+      <option value="taiwan">Taiwan</option>
+      <option value="japan">Japan</option>
+      <option value="korea">Korea</option>
+      <option value="singapore">Singapore</option>
+      <option value="malaysia">Malaysia</option>
+      <option value="thailand">Thailand</option>
+      <option value="philippines">Philippines</option>
+      <option value="vietnam">Vietnam</option>
+      <option value="australia">Australia</option>
+      <option value="england">England</option>
+      <option value="usa">USA</option>
+    </select>
+  </div>
+
+  <div id="culture-info" class="info-box"></div>
+
+  <div class="music-box">
+    <iframe id="youtubePlayer" width="100%" height="315" src="" frameborder="0" allowfullscreen style="display:none;"></iframe>
+  </div>
+
+  <div class="reflection-box" id="reflection-box" style="display:none;">
+    <h3>🌍 Personal Reflection</h3>
+    <p id="reflection-text"></p>
+  </div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
